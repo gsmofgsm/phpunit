@@ -39,4 +39,13 @@ class DinosaurFactoryTest extends TestCase
     {
         $this->markTestIncomplete('Waiting for confirmation from GenLab');
     }
+
+    public function testItGrowsABabyVelociraptor()
+    {
+        if(!class_exists('Nanny')){
+            $this->markTestSkipped('We must have nanny for babys');
+        }
+        $dinosaur = $this->factory->growVelociraptor(1);
+        $this->assertSame(1, $dinosaur->getLength());
+    }
 }
