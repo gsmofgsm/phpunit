@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b93f47c-16a1-4543-9ab9-a762f3fb5d61" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AppBundle/Entity/DinosaurTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Entity/DinosaurTest.php" afterDir="false" />
     </list>
@@ -20,8 +21,8 @@
       <file leaf-file-name="Dinosaur.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+            <state relative-caret-position="360">
+              <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -237,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522527571374</updated>
       <workItem from="1522527572926" duration="702000" />
-      <workItem from="1522530084863" duration="4107000" />
+      <workItem from="1522530084863" duration="4560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4809000" />
+    <option name="totallyTimeSpent" value="5262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="601" extended-state="6" />
@@ -338,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Entity/DinosaurTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="66" />
+        <state relative-caret-position="234">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#42#72#0#PHP" expanded="true" />
           </folding>
@@ -348,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+        <state relative-caret-position="360">
+          <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
         </state>
       </provider>
     </entry>

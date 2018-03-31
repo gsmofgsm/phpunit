@@ -30,7 +30,17 @@ class DinosaurTest extends TestCase
         $dinosaur = new Dinosaur();
 
         $this->assertSame(
-            'The Unknown non-carvivorous dinosaur is 0 meters lang',
+            'The Unknown non-carnivorous dinosaur is 0 meters lang',
+            $dinosaur->getSpecification()
+        );
+    }
+
+    public function testReturnsFullSpecificationForTyrannosaurus()
+    {
+        $dinosaur = new Dinosaur('Tyrannosaurus', true);
+        $dinosaur->setLength(12);
+        $this->assertSame(
+            'The Tyrannosaurus carnivorous dinosaur is 12 meters lang',
             $dinosaur->getSpecification()
         );
     }
