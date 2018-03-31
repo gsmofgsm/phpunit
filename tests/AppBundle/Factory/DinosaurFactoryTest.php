@@ -8,17 +8,26 @@ use PHPUnit\Framework\TestCase;
 
 class DinosaurFactoryTest extends TestCase
 {
+    /**
+     * @var DinosaurFactory
+     */
+    private $factory;
+
+    public function setUp()
+    {
+        $this->factory = new DinosaurFactory();
+    }
+
     public function testItGrowsAVelociraptor()
     {
-        $factory = new DinosaurFactory();
-        $dinosaur = $factory->growVelociraptor(5);
+        $dinosaur = $this->factory->growVelociraptor(5);
 
         $this->assertInstanceOf(Dinosaur::class, $dinosaur);
         $this->assertInternalType('string', $dinosaur->getGenus());
         $this->assertSame('Velociraptor', $dinosaur->getGenus());
         $this->assertSame(5, $dinosaur->getLength());
 
-        $dinosaur2 = $factory->growVelociraptor(6);
+        $dinosaur2 = $this->factory->growVelociraptor(6);
 
         $this->assertInstanceOf(Dinosaur::class, $dinosaur2);
         $this->assertInternalType('string', $dinosaur2->getGenus());
