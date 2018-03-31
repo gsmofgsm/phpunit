@@ -24,4 +24,14 @@ class DinosaurTest extends TestCase
 
         $this->assertGreaterThan(12, $dinosaur->getLength(), 'Did you feed it?');
     }
+
+    public function testReturnsFullSpecificationOfDinosaur()
+    {
+        $dinosaur = new Dinosaur();
+
+        $this->assertSame(
+            'The Unknown non-carvivorous dinosaur is 0 meters lang',
+            $dinosaur->getSpecification()
+        );
+    }
 }
