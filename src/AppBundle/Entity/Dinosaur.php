@@ -42,9 +42,9 @@ class Dinosaur
     public function getSpecification(): string
     {
         return sprintf(
-            'The %s %s dinosaur is %d meters lang',
+            'The %s %scarnivorous dinosaur is %d meters lang',
             $this->genus,
-            ($this->isCarnivorous ? 'carnivorous' : 'non-carnivorous'),
+            ($this->isCarnivorous ? '' : 'non-'),
             $this->length
         );
     }
