@@ -15,7 +15,12 @@ class DinosaurFactory
 {
     public function growVelociraptor(int $length): Dinosaur
     {
-        $dinosaur = new Dinosaur('Velociraptor', false);
+        return $this->createDinosaur('Velociraptor', false, $length);
+    }
+
+    private function createDinosaur(string $genus, bool $isCarnivorous, int $length): Dinosaur
+    {
+        $dinosaur = new Dinosaur($genus, $isCarnivorous);
         $dinosaur->setLength($length);
         return $dinosaur;
     }
