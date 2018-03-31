@@ -16,7 +16,7 @@ class DinosaurFactory
     public function growVelociraptor(int $length): Dinosaur
     {
         $dinosaur = new Dinosaur('Velociraptor', false);
-        $dinosaur->setLength(5);
+        $dinosaur->setLength($length);
         return $dinosaur;
     }
 }
