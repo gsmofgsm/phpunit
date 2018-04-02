@@ -48,4 +48,12 @@ class DinosaurFactoryTest extends TestCase
         $dinosaur = $this->factory->growVelociraptor(1);
         $this->assertSame(1, $dinosaur->getLength());
     }
+
+    public function testItGrowsADinosaurFromASpecification()
+    {
+        $dinosaur = $this->factory->growFromSpecification('large carnivorous dinosaur');
+
+        $this->assertGreaterThanOrEqual(Dinosaur::LARGE, $dinosaur->getLength());
+        $this->assertTrue($dinosaur->isCarnivorous(), 'Diets do not match');
+    }
 }
