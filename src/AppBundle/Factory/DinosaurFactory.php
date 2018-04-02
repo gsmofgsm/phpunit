@@ -18,14 +18,22 @@ class DinosaurFactory
         return $this->createDinosaur('Velociraptor', false, $length);
     }
 
+    public function growFromSpecification(string $specification): Dinosaur
+    {
+        // defaults
+        $codeName = 'InG-' . random_int(1, 99999);
+        $length = random_int(1, Dinosaur::LARGE - 1);
+        $isCarnivorous = false;
+
+        $dinosaur = $this->createDinosaur($codeName, $isCarnivorous, $length);
+
+        return $dinosaur;
+    }
+
     private function createDinosaur(string $genus, bool $isCarnivorous, int $length): Dinosaur
     {
         $dinosaur = new Dinosaur($genus, $isCarnivorous);
         $dinosaur->setLength($length);
         return $dinosaur;
-    }
-
-    public function growFromSpecification(string $specification): Dinosaur
-    {
     }
 }
