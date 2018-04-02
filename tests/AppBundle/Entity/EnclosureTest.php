@@ -20,7 +20,7 @@ class EnclosureTest extends TestCase
 
     public function testItAddsDinosaurs()
     {
-        $enclosure = new Enclosure();
+        $enclosure = new Enclosure(true);
 
         $enclosure->addDinosaur(new Dinosaur());
         $enclosure->addDinosaur(new Dinosaur());
@@ -30,7 +30,7 @@ class EnclosureTest extends TestCase
 
     public function testItDoesNotAllowCarnivorousDinosaursToMixWithHerbivores()
     {
-        $enclosure = new Enclosure();
+        $enclosure = new Enclosure(true);
 
         $enclosure->addDinosaur(new Dinosaur());
 
@@ -43,7 +43,7 @@ class EnclosureTest extends TestCase
      */
     public function testItDoesNotAllowToAddNonCarnivorousDinosaursToCarnivorousDinosaurs()
     {
-        $enclosure = new Enclosure();
+        $enclosure = new Enclosure(true);
 
         $enclosure->addDinosaur(new Dinosaur('Velociraptor', true));
         $enclosure->addDinosaur(new Dinosaur());

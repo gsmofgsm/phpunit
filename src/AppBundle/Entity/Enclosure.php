@@ -27,10 +27,14 @@ class Enclosure
      */
     private $securities;
 
-    public function __construct()
+    public function __construct($withBasicSecurity = false)
     {
         $this->dinosaurs = new ArrayCollection();
         $this->securities = new ArrayCollection();
+
+        if($withBasicSecurity){
+            $this->addSecurity(new Security('Fence', true, $this));
+        }
     }
 
     public function getDinosaurs(): Collection
@@ -48,6 +52,11 @@ class Enclosure
             throw new DinosaursAreRunningRampantException('Are you craaazy?!?');
         }
         $this->dinosaurs[] = $dinosaur;
+    }
+
+    public function addSecurity(Security $security)
+    {
+        $this->securities[] = $security;
     }
 
     public function isSecurityActive(): bool
