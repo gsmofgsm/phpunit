@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b93f47c-16a1-4543-9ab9-a762f3fb5d61" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Exception/NotABuffetException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EnclosureTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php">
+      <file leaf-file-name="NotABuffetException.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Exception/NotABuffetException.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="e#43#73#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -41,8 +41,9 @@
         <option value="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Exception/NotABuffetException.php" />
       </list>
     </option>
   </component>
@@ -171,6 +172,13 @@
               <item name="phpunit" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exception" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="phpunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpunit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Factory" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -291,12 +299,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522527571374</updated>
       <workItem from="1522527572926" duration="702000" />
-      <workItem from="1522530084863" duration="12464000" />
+      <workItem from="1522530084863" duration="13171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13166000" />
+    <option name="totallyTimeSpent" value="13873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="601" extended-state="6" />
@@ -428,20 +436,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="360">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding>
             <element signature="e#43#73#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Exception/NotABuffetException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
