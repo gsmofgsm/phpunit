@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b93f47c-16a1-4543-9ab9-a762f3fb5d61" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Exception/DinosaursAreRunningRampantException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="Enclosure.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+            <state relative-caret-position="273">
+              <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -301,12 +297,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522527571374</updated>
       <workItem from="1522527572926" duration="702000" />
-      <workItem from="1522530084863" duration="14078000" />
+      <workItem from="1522530084863" duration="14227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14780000" />
+    <option name="totallyTimeSpent" value="14929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="601" extended-state="6" />
@@ -477,12 +473,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Security.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+        <state relative-caret-position="273">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
         </state>
       </provider>
     </entry>

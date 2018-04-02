@@ -23,6 +23,7 @@ class Enclosure
 
     /**
      * @var Collection|Security[]
+     * @ORM\OneToMany(targetEntity="Security", mappedBy="enclosure", cascade={"persist"})
      */
     private $securities;
 
