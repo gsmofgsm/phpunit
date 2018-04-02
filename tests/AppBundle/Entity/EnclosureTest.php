@@ -13,7 +13,7 @@ class EnclosureTest extends TestCase
     {
         $enclosure = new Enclosure();
 
-        $this->assertCount(0, $enclosure->getDinosaurs());
+        $this->assertEmpty($enclosure->getDinosaurs());
     }
 
     public function testItAddsDinosaurs()
