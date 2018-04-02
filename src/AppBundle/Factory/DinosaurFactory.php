@@ -29,6 +29,10 @@ class DinosaurFactory
             $length = random_int(Dinosaur::LARGE, 100);
         }
 
+        if(stripos($specification, 'carnivorous') !== false){
+            $isCarnivorous = true;
+        }
+
         $dinosaur = $this->createDinosaur($codeName, $isCarnivorous, $length);
 
         return $dinosaur;
