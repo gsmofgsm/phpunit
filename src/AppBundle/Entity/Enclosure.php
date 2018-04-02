@@ -24,7 +24,7 @@ class Enclosure
         $this->dinosaurs = new ArrayCollection();
     }
 
-    public function getDinosaurs()
+    public function getDinosaurs(): Collection
     {
         return $this->dinosaurs;
     }

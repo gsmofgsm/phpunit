@@ -3,9 +3,11 @@
 namespace Tests\AppBundle\Entity;
 
 
+use AppBundle\Entity\Dinosaur;
 use AppBundle\Entity\Enclosure;
+use PHPUnit\Framework\TestCase;
 
-class EnclosureTest
+class EnclosureTest extends TestCase
 {
     public function testItHasNoDinosaursByDefault()
     {

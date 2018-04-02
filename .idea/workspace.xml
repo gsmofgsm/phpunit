@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b93f47c-16a1-4543-9ab9-a762f3fb5d61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dinosaur.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
+      <file leaf-file-name="EnclosureTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+            <state relative-caret-position="294">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -38,9 +38,9 @@
         <option value="$PROJECT_DIR$/tests/AppBundle/Entity/DinosaurTest.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" />
-        <option value="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" />
+        <option value="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" />
       </list>
     </option>
   </component>
@@ -289,12 +289,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522527571374</updated>
       <workItem from="1522527572926" duration="702000" />
-      <workItem from="1522530084863" duration="11787000" />
+      <workItem from="1522530084863" duration="12271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12489000" />
+    <option name="totallyTimeSpent" value="12973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="601" extended-state="6" />
@@ -419,24 +419,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="441">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="339">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php">
+    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        <state relative-caret-position="294">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
