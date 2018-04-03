@@ -31,6 +31,7 @@ class DinosaurFactory
         // defaults
         $codeName = 'InG-' . random_int(1, 99999);
         $length = $this->lengthDeterminator->getLengthFromSpecification($specification);
+        $length = 0;
         $isCarnivorous = false;
 
         if(stripos($specification, 'carnivorous') !== false){
