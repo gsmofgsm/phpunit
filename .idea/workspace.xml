@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b93f47c-16a1-4543-9ab9-a762f3fb5d61" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EnclosureBuilderServiceTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php">
+      <file leaf-file-name="EnclosureBuilderService.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="339">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -50,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" />
       </list>
     </option>
   </component>
@@ -328,12 +330,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522527571374</updated>
       <workItem from="1522527572926" duration="702000" />
-      <workItem from="1522530084863" duration="20133000" />
+      <workItem from="1522530084863" duration="20200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20835000" />
+    <option name="totallyTimeSpent" value="20902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="601" extended-state="6" />
@@ -527,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Service/DinosaurLengthDeterminatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -548,6 +543,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>

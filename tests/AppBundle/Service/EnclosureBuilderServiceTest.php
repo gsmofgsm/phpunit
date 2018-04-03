@@ -23,6 +23,6 @@ class EnclosureBuilderServiceTest extends TestCase
         $enclosure = $builder->buildEnclosure(1, 2);
 
         $this->assertCount(1, $enclosure->getSecurities());
-//        $this->assertCount(2, $enclosure->getDinosaurs());
+        $this->assertCount(2, $enclosure->getDinosaurs());
     }
 }
