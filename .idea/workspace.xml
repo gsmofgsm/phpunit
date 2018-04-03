@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b93f47c-16a1-4543-9ab9-a762f3fb5d61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceProphecyTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EnclosureBuilderService.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php">
+      <file leaf-file-name="EnclosureBuilderServiceProphecyTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceProphecyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state relative-caret-position="150">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" />
+        <option value="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceProphecyTest.php" />
       </list>
     </option>
   </component>
@@ -330,12 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522527571374</updated>
       <workItem from="1522527572926" duration="702000" />
-      <workItem from="1522530084863" duration="20669000" />
+      <workItem from="1522530084863" duration="21798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21371000" />
+    <option name="totallyTimeSpent" value="22500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="601" extended-state="6" />
@@ -539,17 +540,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php">
+    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="318">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="30" selection-end-line="35" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceProphecyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
         </state>
       </provider>
     </entry>
