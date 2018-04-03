@@ -15,10 +15,14 @@ class EnclosureBuilderServiceTest extends TestCase
         $em = $this->createMock(EntityManagerInterface::class);
         $dinoFactory = $this->createMock(DinosaurFactory::class);
 
+        $dinoFactory->expects($this->exactly(2))
+            ->method('growFromSpecification')
+            ->with($this->isType('string'));
+
         $builder = new EnclosureBuilderService($em, $dinoFactory);
         $enclosure = $builder->buildEnclosure(1, 2);
 
         $this->assertCount(1, $enclosure->getSecurities());
-        $this->assertCount(2, $enclosure->getDinosaurs());
+//        $this->assertCount(2, $enclosure->getDinosaurs());
     }
 }
